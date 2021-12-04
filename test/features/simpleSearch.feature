@@ -2,6 +2,7 @@ Feature: Simple Search
 
 Scenario: As a user I want to search for a brand on studentbeans.com so that I can see if I can get a discount on that brand
   Given I am on the studentbeans homepage
+  And I accept all cookies
   And I open the search bar
   When I enter "Samsung"
   Then I should be shown a search listing for "Samsung"

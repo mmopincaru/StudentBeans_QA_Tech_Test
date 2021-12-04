@@ -65,7 +65,8 @@ exports.config = {
       {
         logFileName: 'wdio-chromedriver.log', // default
         outputDir: 'test-results/driver-logs', // overwrites the config.outputDir
-        args: ['--silent']
+        args: ['--silent'],
+        chromedriverCustomPath: 'C:/Users/Maria-Madalina/Downloads/chromedriver.exe'  //had to pass this as the default chromedriver installed was incompatibe with my machine Chrome
       }
     ]
   ],
